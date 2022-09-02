@@ -6,6 +6,9 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/SampleScene.unity
-    guid: 99c9720ab356a0642a771bea13969a05
+    path: Assets/Scenes/Barakat/UI.unity
+    guid: 429941fcbf8ad7546a8464c941dcaf3d
+  - enabled: 1
+    path: Assets/Scenes/Barakat/Game.unity
+    guid: 1af3bf07971a3e349a7d9001edf8569d
   m_configObjects: {}
