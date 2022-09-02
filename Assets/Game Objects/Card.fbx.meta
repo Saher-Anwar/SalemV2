@@ -2,13 +2,7 @@ fileFormatVersion: 2
 guid: c4158df2fbceb1848b48e363a826c2f6
 ModelImporter:
   serializedVersion: 22103
-  internalIDToNameTable:
-  - first:
-      74: 4566127169130117476
-    second: Cube|Hide Card
-  - first:
-      74: 7174625627886757161
-    second: Cube|Show Card
+  internalIDToNameTable: []
   externalObjects: {}
   materials:
     materialImportMode: 2
