@@ -410,6 +410,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: Card
       objectReference: {fileID: 0}
+    - target: {fileID: 7698141220954901871, guid: 24981188597e1fc4286658676b143f0f,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7698141220954901871, guid: 24981188597e1fc4286658676b143f0f,
+        type: 3}
+      propertyPath: m_CullingMode
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7881285990943451786, guid: 24981188597e1fc4286658676b143f0f,
         type: 3}
       propertyPath: m_RootOrder
