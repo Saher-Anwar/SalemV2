@@ -25,8 +25,6 @@ public class HoverOverCard : MonoBehaviour
         timeElapsed += Time.deltaTime;
         float percentageComplete = timeElapsed / lerpTimeInSeconds;
         transform.position = Vector3.Lerp(startPosition, newPos, percentageComplete);
-
-        Debug.Log(timeElapsed);
     }
 
     private void Update()
