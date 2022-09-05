@@ -2,6 +2,8 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+// TODO: Player that owns this card should now be able to flip it (Server side)
+
 public class FlipCard : MonoBehaviour
 {
     public float FlipSpeed = 1;
