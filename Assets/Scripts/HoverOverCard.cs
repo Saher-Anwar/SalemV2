@@ -2,6 +2,8 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+// TODO: Card wont flip properly if adjusted to be vertically aligned during the game
+
 public class HoverOverCard : MonoBehaviour
 {
     public Vector3 newPos;
