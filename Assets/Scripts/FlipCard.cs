@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class FlipCard : MonoBehaviour
 {
-    public float LerpTimeInSeconds = 1;
+    public float FlipSpeed = 1;
 
     Vector3 initialRotation;
     Vector3 targetRotation;
@@ -26,7 +26,7 @@ public class FlipCard : MonoBehaviour
         {
             Flip();
 
-            if (timeElapsed >= LerpTimeInSeconds)
+            if (timeElapsed >= FlipSpeed)
             {
                 ResetVariables();
             }
@@ -36,7 +36,7 @@ public class FlipCard : MonoBehaviour
     private void Flip()
     {
         timeElapsed += Time.deltaTime;
-        float percentageComplete = timeElapsed / LerpTimeInSeconds;
+        float percentageComplete = timeElapsed / FlipSpeed;
         transform.eulerAngles = Vector3.Lerp(initialRotation, targetRotation, percentageComplete);
     }
 
